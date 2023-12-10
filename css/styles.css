@@ -1,0 +1,150 @@
+.bodyHome {
+    background-image: url("../AOC\ landscape2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bodyHobbies {
+    background-image: url("../AOC\ landscape\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.aboutBody {
+    background-image: url("../AOC\ landscape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bodynavy{
+    background-image: url("../EODbadge.png"), url("../Seabees.png"), url("../Navy.png"), url("../diveschool.jpg"), url("../Oping.JPG"), url("../awardFromOmanColonel.JPG"), url("../seeBeeAfghan.jpg");
+    background-size: 20%, 15%, 20%, 20%, 11%, 20%, 20%;
+    background-repeat: no-repeat;
+    background-position: left 2% top 13%, left 5% bottom 48%, left 3% bottom 0%, right 1% top, right 23.5% top 1%, right 10% bottom, right 10% top 46%;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.563);
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+    float: left;
+    position: center;
+    display: in-line block;
+}
+
+.navbar ul{
+    overflow: auto;
+    float: left;
+}
+
+.navbar li {
+    float: left;
+    margin: 0px 20px;
+    list-style: none;
+}
+
+.divbelow {
+    clear: left;
+}
+
+.pic {
+    height: 35%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.textblock {
+    background-color: white;
+    text-align: centered;
+    border: 3px solid blue;
+    padding: 1%;
+}
+
+.paraleft {
+    float: left;
+    position: center;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 60%;
+    margin-top: 5%;
+    font-size: 125%;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.encourageButton{
+    position: relative;
+    left: 18%;
+    top: 10px;
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #03e9f4;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.encourageButton:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: url("#flyOn");
+  animation: wavemover 20s infinite alternate linear;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 3.6em;
+    max-width: 10ch;
+    opacity: .7;
+    margin-left: 20%;
+  }
+  
+  @keyframes wavemover {
+    100% {
+      padding-left: 100%;
+      
+    }
+  }
+
+
+
+  
+  
